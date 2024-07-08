@@ -1,0 +1,12 @@
+
+#all_sleep_duration16 = (sleep_data['time'].iloc[25] - sleep_data['time'].iloc[22])  #11-23
+
+#all_interruption (sleep_data['time'].iloc[24] - sleep_data['time'].iloc[23])
+
+#sleep_without_interruption = all_sleep_duration16 - all_interruption
+
+#num_of_interruption16 = 1
+
+#sleep_efficiency16 = abs((sleep_without_interruption.seconds / all_sleep_duration16.seconds) * 100)
+
+#sleep efficiency16 = round (sleep_efficiency16, 2)
